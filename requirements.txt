@@ -1,0 +1,13 @@
+# Core AI providers – install at least one
+anthropic>=0.40.0
+openai>=1.50.0
+
+# Data validation – enforces strict schema on every LLM response
+pydantic>=2.0.0
+
+# Web scraping
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# Environment variables
+python-dotenv>=1.0.0

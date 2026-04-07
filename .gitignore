@@ -1,0 +1,36 @@
+# --- Cursor/Claude local artifacts (do not commit) ---
+
+# Some setups create a local file/dir named "claude"
+claude
+claude/
+
+# Common hidden Claude directory (if present)
+.claude/
+
+# --- Runtime artifacts ---
+logs/
+outputs/
+
+# --- Secrets / local env ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# --- Virtualenvs ---
+.venv/
+venv/
+env/
+
+# --- macOS ---
+.DS_Store
+
