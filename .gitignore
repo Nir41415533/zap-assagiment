@@ -6,7 +6,7 @@ claude/
 
 # Common hidden Claude directory (if present)
 .claude/
-
+/CLAUDE.md
 # --- Runtime artifacts ---
 logs/
 outputs/

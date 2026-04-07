@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 CRM_OUTPUT_DIR = Path("outputs")
 
 # Simulated CRM endpoint (would be a real URL in production)
-_MOCK_CRM_ENDPOINT = "https://crm.zapgroup.co.il/api/v1/customers"
+_MOCK_CRM_ENDPOINT = "mock://crm/customers"
 
 
 def post_to_crm(result: "OnboardingResult") -> dict:
